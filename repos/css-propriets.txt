@@ -1,0 +1,17 @@
+text:
+
+font-family: "Times New Roman", sans-serif;
+font-size: 22px
+font-weight: 700 (or "bold")
+text-align: center
+
+Image height and width:
+
+By default, an <img> element’s height and width values will be the same as the actual image file’s height and width.
+ If you wanted to adjust the size of the image without causing it to lose its proportions,
+  you would use a value of “auto” for the height property and adjust the width value:
+
+img {
+  height: auto;
+  width: 500px;
+}
